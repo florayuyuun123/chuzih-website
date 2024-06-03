@@ -128,7 +128,8 @@ a:hover, a:active {
     left: 0;
     z-index: 99;
     width: 100%;
-    padding: 14px 0;
+    padding: 10px 0;
+    background-color: hsl(0, 0%, 0%, 0.4);
 }
 
 /*
@@ -229,7 +230,7 @@ a:hover, a:active {
 .site-navigation ul {
     position: fixed;
     top: 0;
-    left: -320px;
+    right: 0px;
     z-index: 9999;
     width: 320px;
     max-width: 80%;
@@ -242,13 +243,13 @@ a:hover, a:active {
 }
 
 .site-navigation.show ul {
-    left: 0;
+    right: 0;
 }
 
 .site-navigation ul li {
     display: block;
-    padding: 10px 16px;
-    font-size: 16px;
+    padding: 10px 40px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.02rem;
     text-transform: uppercase;
@@ -312,7 +313,8 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero-slider {
+.swiper-slide {
+    background-position: bottom right !important;
 }
 
 .hero-content {
